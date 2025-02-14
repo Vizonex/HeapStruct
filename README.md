@@ -7,7 +7,7 @@ A Msgspec inspired dataclass library Made for CPython, Python and Cython.
 - `__post_new__` function upon dataclass creation for tools like sqlalchemy
 - `__subclass_init__` or a metaclass can be used when making your own custom base
 - Only core functionality is provided meaning that json or other serlizers will have
-to be written on your own. With everything going to be written in C that should make
+to be written on your own. With everything going to be written in Cython that should make
 it very easy to configure and with a Cython port being included you'll be more than
 ready for such a task.
 - Code can be compiled on it's own or with Cython (I hope for something simillar to what numpy does)
