@@ -18,6 +18,7 @@ ready for such a task.
   this can be easily frustrating when you don't have any control over 2 libraries
 - When you need customization over the `__new__` function under `__post_new__`
 - Making a quick/dirty dataclass-model without the code-bloat
+- When you do not need validators which can be slow on initialization.
 
 ## TODOS
 - [ ] msgspec & attrs support (Maybe another extension like the one attrs added to msgspec)
