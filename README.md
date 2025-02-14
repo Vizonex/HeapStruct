@@ -21,6 +21,8 @@ ready for such a task.
 - When you do not need validators which can be slow on initialization.
 
 ## TODOS
+- [ ] Were currently stuck on the integration portion of this library were functions like `__new__` `__init_subclass__` or others should be used. Finding a way to hack in a `cdef class`
+  Definition on any of these requires new proposals to the Cython Developers on how I can get this kind of dataclass integrated in both Cython and Python. 
 - [ ] msgspec & attrs support (Maybe another extension like the one attrs added to msgspec)
 - [ ] Propose for Cython to allow cdef metaclasses under a new directive/wrapper which
   will allow heapstruct to become it's own cython library thus preventing it from being
