@@ -5,9 +5,15 @@ This Class Object is currently being utilized to research into ways that we coul
 BaseModel dataclass into a Cython cdef extension or Rust (PyO3) as well as Making a fully compatable subclass that can work 
 with SQLAlchemy Directly. 
 
+```
+pip install "git+https://github.com/Vizonex/HeapStruct"
+```
+This is not a pypi library yet so git is currently required unless you want to download it as a zip and the run `setup.py`
+
+
 ## Why I forked the library
 - Maintenance started to slow down for the msgspec branch.
-- To Reasearch, Hack and Stress Test Everything. 
+- To Research, Hack and Stress Test Everything. 
 The more I use it, the more mature it becomes.
 - making a Fully Cython Compatable Version of Quickle & Msgspec allowing for extra customization or writing your own encoder libraries.
 - To make the metaclass portion modifiable via subclassing it.
